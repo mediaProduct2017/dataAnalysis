@@ -1,2 +1,2 @@
 # dataAnalysis
-For data cleaning and data warehouse construction
+dataWarehouse.ipynb focuses on data cleaning and data warehouse construction.
