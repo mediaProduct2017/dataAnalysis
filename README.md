@@ -13,6 +13,10 @@ Data analysis process:
 2. data wrangling: data acquisiton, data cleaning（missing data, outlier, unreasonable data）
 3. explore: build intutions about data and find patterns about data
 4. draw conclusions or make predictions（建模过程，核心; statistics and machine learning）
-5. communicate (blog post, email, paper, power point, conversation; data visulization)
+5. communicate (blog post, email, paper, power point, conversation; data visualization)
 
 Data wrangling and data exploring are very intertwined because you can't really clean any problems with the data before you take a look at what problems there are.
+
+从互联网上获取数据(data acquisiton)的途径有：直接下载数据文件，通过网站API从网站数据库中获取，通过爬虫从网站页面获取。
+
+数据存储有可能是在data wrangling之后，也有可能是在data exploring之后。有可能存储在单机系统中，也有可能存储在分布式系统中。存好之后，在需要建模的时候，再从数据库中把需要的数据取出来。
